@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: rgb(91, 191, 222);
+    --primary-color-darker: rgb(35, 149, 184);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 50px;
+    border: 100px;
+    border-radius: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+.relogio {
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.pausado {
+    color: red;
+}
+
+#h1 {
+    align-items: center;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* Define a altura da div como a altura da viewport */
+}
+
+button {
+    border: none;
+    /* Remove a borda padrão */
+    color: white;
+    /* Cor do texto */
+    padding: 10px 20px;
+    /* Preenchimento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    text-decoration: none;
+    /* Remove sublinhado */
+    display: inline-block;
+    /* Torna o botão em linha */
+    font-size: 20px;
+    /* Tamanho do texto */
+    margin: 4px 2px;
+    /* Margem externa */
+    border-radius: 8px;
+    /* Borda arredondada */
+}
+
+.iniciar {
+    background-color: #4CAF50;
+    /* Cor de fundo */
+}
+
+.pausar {
+    background-color: #c42d19;
+    /* Cor de fundo */
+}
+
+.zerar {
+    background-color: #4588df;
+    /* Cor de fundo */
+}
+
+#titulo {
+    text-align: center;
+    font-size: 3em;
+}
