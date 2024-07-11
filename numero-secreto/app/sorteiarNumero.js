@@ -1,5 +1,5 @@
  const menorValor = 1
- const maiorValor = 500
+ const maiorValor = 4
 const numeroSecreto = gerarNumeroAleatorio()
 
 function gerarNumeroAleatorio(){
